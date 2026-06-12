@@ -535,4 +535,9 @@ create table tproducto (
 go
 
 insert into tproducto (ccodigo, cnombre, cdescripcion, nprecio, nstock) values
-    ('PRD-001', 'Laptop Dell Vostro 3500', 'Laptop 15.6 pulgadas, Core i5,
+    ('PRD-001', 'Laptop Dell Vostro 3500', 'Laptop 15.6 pulgadas, Core i5, 8GB RAM', 650.00, 15),
+    ('PRD-002', 'Monitor Samsung 24"', 'Monitor Full HD, panel IPS, HDMI', 120.00, 30),
+    ('PRD-003', 'Teclado Mecánico Logitech', 'Teclado inalámbrico retroiluminado', 85.00, 50),
+    ('PRD-004', 'Mouse Inalámbrico Microsoft', 'Mouse ergonómico Bluetooth', 35.00, 100),
+    ('PRD-005', 'Disco Duro Externo 1TB', 'Disco SSD portátil USB 3.0', 95.00, 25);
+go
